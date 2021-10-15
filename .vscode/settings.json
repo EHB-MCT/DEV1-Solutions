@@ -1,0 +1,62 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --remote-debugging-port=9222",
+    "git-graph.contextMenuActionsVisibility": {
+        "branch": {
+            "checkout": false,
+            "copyName": false,
+            "createArchive": false,
+            "createPullRequest": false,
+            "merge": false,
+            "delete": false,
+            "push": false,
+            "rebase": false,
+            "rename": false
+        },
+        "commit": {
+            "addTag": false,
+            "checkout": false,
+            "cherrypick": false,
+            "copyHash": false,
+            "copySubject": false,
+            "createBranch": false,
+            "drop": false,
+            "merge": false,
+            "rebase": false,
+            "reset": false,
+            "revert": false
+        },
+        "remoteBranch": {
+            "checkout": false,
+            "copyName": false,
+            "createArchive": false,
+            "createPullRequest": false,
+            "delete": false,
+            "fetch": false,
+            "merge": false,
+            "pull": false
+        },
+        "stash": {
+            "apply": false,
+            "copyHash": false,
+            "copyName": false,
+            "createBranch": false,
+            "drop": false,
+            "pop": false
+        },
+        "tag": {
+            "copyName": false,
+            "createArchive": false,
+            "delete": false,
+            "push": false,
+            "viewDetails": false
+        },
+        "uncommittedChanges": {
+            "clean": false,
+            "openSourceControlView": false,
+            "reset": false,
+            "stash": false
+        }
+    }
+}
