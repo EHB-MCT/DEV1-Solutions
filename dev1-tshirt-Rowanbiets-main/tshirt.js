@@ -14,9 +14,9 @@ let g = Utils.randomNumber(0, 255);
 let b = Utils.randomNumber(0, 255);
 
 let kleur = Utils.rgba(r, g, b, 50);
-drawstars();
+drawPlanet();
 
-function drawstars() {
+function drawPlanet() {
 
     /**
      * Dit is voor de grote bladeren het krijgt een random kleur
@@ -24,9 +24,10 @@ function drawstars() {
     context.fillStyle = kleur;
     Utils.fillCircle(x, y, 100);
 }
-drawPlanet();
+/**dit is voor de sterren van kleur te laten veranderen */
+drawStars();
 
-function drawPlanet() {
+function drawStars() {
     for (let i = 0; i < 1000; i++) {
 
         let n = Math.random() * width;
