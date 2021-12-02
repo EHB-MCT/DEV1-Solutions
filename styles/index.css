@@ -15,3 +15,10 @@ body {
 #dots {
     float: left;
 }
+
+button,
+input {
+    position: relative;
+    float: left;
+    font-size: large;
+}
