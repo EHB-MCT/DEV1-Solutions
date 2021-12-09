@@ -58,5 +58,6 @@
             "reset": false,
             "stash": false
         }
-    }
+    },
+    "liveServer.settings.port": 5501
 }
